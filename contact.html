@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!--menu bar started-->
+    <div class="navbar">
+        <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="about-us.html"><i class="fa fa-tree" aria-hidden="true"></i> About us</a>
+        <a href="service.html"><i class="fa fa-truck" aria-hidden="true"></i> Services</a>
+        <a class="active" href="contact.html"><i class="fa fa-mobile" aria-hidden="true"></i> Contact us</a>
+      </div>
+      <!--menu bar ended-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 style="text-align: center;">Google Map</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.0084832562607!2d78.9695147144744!3d16.01307388891563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb48c1241adb0e3%3A0x5c8ac521fa9f1f8c!2sNallamala%20Forest!5e0!3m2!1sen!2sin!4v1608639661440!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="col-md-6">
+                <h1 style="text-align: center;">Login Form</h1>
+                <form action="action_page.php" method="post">
+                   
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                  
+                      <button type="submit">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                  
+                    <div class="container" style="background-color:#f1f1f1">
+                      <button type="button" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                  
+            </div>
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
